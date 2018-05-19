@@ -109,6 +109,16 @@ export function makeImage(imageUrl, rect, layout) {
             }
         }
     });
+
+    // Image都强制变为圆角
+    var cir = new Circle({
+        shape: {
+            cx: rect.x + rect.width / 2,
+            cy: rect.y + rect.height / 2,
+            r: rect.width/2
+        }
+    });
+    path.setClipPath(cir);
     return path;
 }
 

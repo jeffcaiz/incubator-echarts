@@ -33,13 +33,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ecomfe/echarts.git"
+    "url": "https://github.com/jeffcaiz/zrender.git"
   },
   "scripts": {
     "prepublish": "node build/build.js --prepublish"
   },
   "dependencies": {
-    "zrender": "4.0.4"
+    "zrender": "jeffcaiz/zrender#4.0.4_MiniApp"
   },
   "devDependencies": {
     "@babel/core": "7.0.0-beta.31",
@@ -58,6 +58,6 @@
     "rollup": "0.50.0",
     "rollup-plugin-node-resolve": "3.0.0",
     "rollup-plugin-uglify": "2.0.1",
-    "zrender": "4.0.4"
+    "zrender": "4.0.4_MiniApp"
   }
 }
